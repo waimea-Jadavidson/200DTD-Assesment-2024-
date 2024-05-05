@@ -13,16 +13,40 @@ Assessment Standards: **91892** and **91893**
 
 ### Identified Need or Problem
 
-Replace this text with a clearly stated problem or need that exists that your project will attempt to solve / fulfil.
+National Secretary has no way to track Class Members, Regattas and who is attending regattas. 
 
 ### End-User Requirements
 
-Replace this text with a description of your typical end-users and their specific needs / expectations / requirements.
+#### Class Members 
+
+* Seeing Regatta Events that are upcoming  
+
+* Be able to say that their attending events 
+
+#### National Secretary 
+
+* Being able to see class members 
+
+* Who is attending Regattas 
+
+* Being able to create Regattas 
 
 ### Proposed Solution
 
-Replace this text with a brief statement about the system that you intend to create, including the key functionality it should have.
 
+Note:
+>Regatta and Event term are used interchangeably throughout this project
+
+National Secretary should be able to:
+
+* Add Users, Remove Users, Edit Users Information (Includes Boat information)
+* Add Events, Remove Events, Edit Events
+* (Optional) Add Event/Boat Photos
+
+Class Members should be able to:
+
+* See and react to Events
+* (Optional) Look at event photos/boat photos
 
 -------------------------------------------------
 
