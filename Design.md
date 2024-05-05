@@ -6,6 +6,8 @@ Project Author: **Jasper Davidson**
 
 Assessment Standards: **91892** and **91893**
 
+#### Note:
+>Regatta and Event term are used interchangeably throughout this project
 
 -------------------------------------------------
 
@@ -34,16 +36,15 @@ National Secretary has no way to track Class Members, Regattas and who is attend
 ### Proposed Solution
 
 
-Note:
->Regatta and Event term are used interchangeably throughout this project
 
-National Secretary should be able to:
+
+#### National Secretary should be able to:
 
 * Add Users, Remove Users, Edit Users Information (Includes Boat information)
 * Add Events, Remove Events, Edit Events
 * (Optional) Add Event/Boat Photos
 
-Class Members should be able to:
+#### Class Members should be able to:
 
 * See and react to Events
 * (Optional) Look at event photos/boat photos
