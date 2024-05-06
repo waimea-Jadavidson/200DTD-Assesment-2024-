@@ -9,13 +9,15 @@ Assessment Standards: **91892** and **91893**
 #### Note:
 >Regatta and Event term are used interchangeably throughout this project
 
+>Public end-user group is optional and only if i have time. It is not core functionally or end user
+
 -------------------------------------------------
 
 ## System Requirements
 
 ### Identified Need or Problem
 
-National Secretary has no way to track Class Members, Regattas and who is attending regattas. 
+National Secretary has no way to track Class Members, Regattas and who is attending regattas. As well as acting as a public front for the NZFDA where they can point new and prospective sailors
 
 ### End-User Requirements
 
@@ -33,10 +35,13 @@ National Secretary has no way to track Class Members, Regattas and who is attend
 
 * Being able to create Regattas 
 
+#### Public
+
+* Find out class and association information
+* Find joining information
+* Look at pictures and media
+
 ### Proposed Solution
-
-
-
 
 #### National Secretary should be able to:
 
@@ -49,33 +54,55 @@ National Secretary has no way to track Class Members, Regattas and who is attend
 * See and react to Events
 * (Optional) Look at event photos/boat photos
 
+#### Public (Optional)
+
+* Find out class and association information
+* Find joining information
+* Look at pictures and media
+
 -------------------------------------------------
 
 ## Relevant Implications
 
-### IMPLICATION NAME HERE
+### Functionality
 
-Replace this text with a clear explanation of what the implication means.
+The functionality implications of a digital technology or digital outcome (e.g. a website) relate to how well it works for the end-users, in terms of meeting its intended purpose.
 
-Replace this text with an explanation of why the implication is relevant to this particular project.
+This implication is important for my website because there are two groups of end-users. The website will have to work for all groups and it has different functionality for all of them. So working is a key point.
 
-Replace this text with an explanation of what you will need to consider moving forward and how the project will be impacted by this implication.
+Everything will be impacted by this implication. I will need to consider how I go about designing the website and making sure it is meeting it's intended purpose at the end of it.
 
-### IMPLICATION NAME HERE
+### Usability
 
-Replace this text with a clear explanation of what the implication means.
+The usability implications of a digital technology or digital outcome (e.g. a website) relate to how easy it is to use for the end-user, without the need for help or guidance.
 
-Replace this text with an explanation of why the implication is relevant to this particular project.
+This implication is important because both end-user groups will need to be able to use the website easily and in the quickest way that allows them to. Everyone has busy lives, so streamlining process is key. It also has to work for the public so they can see information and media that they need but not anything else.
 
-Replace this text with an explanation of what you will need to consider moving forward and how the project will be impacted by this implication.
+I will need to consider how I layout the website, so that everything is streamlined and the most efficient way possible. The project will be impacted majorly if I don't start with a good base design of how everything will work. Because adding as I go will making things cluttered and won't be thought out the best way.
 
-### IMPLICATION NAME HERE
+### Privacy
 
-Replace this text with a clear explanation of what the implication means.
+The privacy implications of a digital technology or digital outcome (e.g. a website) relate to protecting the privacy of end-users and their data.
 
-Replace this text with an explanation of why the implication is relevant to this particular project.
+This implication is important because I will be storing members key information like name, phone, email etc etc.
 
-Replace this text with an explanation of what you will need to consider moving forward and how the project will be impacted by this implication.
+I will need to consider how I design and layout the website to provide the most secure way to storing and holding the information so only the authorized people can access this information as well as endeavour to only hold the needed information and nothing else.
+
+### Legal
+
+The legal implications of storing and using media and data and making sure it conforms to all relevant NZ Law.
+
+This is important because I will be show and storing media that is relevant to the class and association. So making sure all of it complies with relevant law is key. I am also storing members personnel data, so it has to conform to relevant NZ privacy and data Laws.
+
+I will need to consider what media I use and where as well as how, this is will start from the beginning. Also making sure that data is collected and stored safely and I plan out how I am going to do that. Doing it wrong at the start could lead to issues later on when I have to fix it and it becomes a mess.
+
+### End-User
+
+This implication means making sure that the needs of the End-Users are understood and then meet within the website
+
+This is important because I have multiple End-Users with vastly different needs, so meeting the requirements of these end-users will be key.
+
+I will need to consider all of the mentioned implications above as the all come under this implication. Making sure I meet this implication is key because it is the most important one.
 
 
 -------------------------------------------------
