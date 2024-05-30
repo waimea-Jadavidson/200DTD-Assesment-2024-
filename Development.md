@@ -49,3 +49,11 @@ The flow of the website and how members and admin will flow round it.
 Basic layout of the website UI and possible media/text
 ##### Related Media
 ![Basic UI Layout](images/uiBasic.png)
+
+#
+
+### 2024/05/30
+#### Development: UI Design v0.2
+I have add more go back and cancel buttons, making it easier to navigate around the website for users who are on the older side and don't understand the web as well. The association does have a percentage of members who are over 70 and as not as tech savy. This was mentioned by the stakeholder when he saw the first iteration of the basic UI. He was happy with the flow diagram but wanted it more replicated in the basic ui.
+##### Related Media
+![Basic layout of ui 2](images/uiBasic2.png)
