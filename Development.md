@@ -40,7 +40,7 @@ First Iteration of DB
 #### Development: Website Flow v0.1
 The flow of the website and how members and admin will flow round it.
 ##### Related Media
-![Website Flow](image.png)
+![Website Flow](images/image.png)
 
 #
 
