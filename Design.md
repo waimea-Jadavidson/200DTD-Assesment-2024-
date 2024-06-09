@@ -24,22 +24,27 @@ National Secretary has no way to track Class Members, Regattas and who is attend
 #### Class Members 
 
 * Seeing Regatta Events that are upcoming  
+* Be able to say that their attending events
 
-* Be able to say that their attending events 
+* Not all It iterate, will need to use plain and simple design
+* Plain and simple language
 
 #### National Secretary 
 
 * Being able to see class members 
-
 * Who is attending Regattas 
+* Being able to create Regattas
 
-* Being able to create Regattas 
+* Easy to use, will not take up massive amounts of time, as he does have a day job
+* Can be done off a laptop
 
 #### Public
 
 * Find out class and association information
 * Find joining information
 * Look at pictures and media
+
+* Not all possibly sailors, so refrain from using sailing language
 
 ### Proposed Solution
 
@@ -70,7 +75,7 @@ The functionality implications of a digital technology or digital outcome (e.g. 
 
 This implication is important for my website because there are two groups of end-users. The website will have to work for all groups and it has different functionality for all of them. So working is a key point.
 
-Everything will be impacted by this implication. I will need to consider how I go about designing the website and making sure it is meeting it's intended purpose at the end of it.
+Everything will be impacted by this implication. I will need to consider how I go about designing the website and making sure it is meeting it's intended purpose at the end of it. To make sure it works 100%, I will need to test regularly at every step and thoroughly.
 
 ### Usability
 
@@ -78,7 +83,7 @@ The usability implications of a digital technology or digital outcome (e.g. a we
 
 This implication is important because both end-user groups will need to be able to use the website easily and in the quickest way that allows them to. Everyone has busy lives, so streamlining process is key. It also has to work for the public so they can see information and media that they need but not anything else.
 
-I will need to consider how I layout the website, so that everything is streamlined and the most efficient way possible. The project will be impacted majorly if I don't start with a good base design of how everything will work. Because adding as I go will making things cluttered and won't be thought out the best way.
+I will need to consider Nielsen usability heuristics, for example consistency and standards. I will need to keep my UI designs consistent and to a standard, this will make sure the end users do not get confused. Another one is user control and freedom, I will need to allow the user to cancel or go back out of everything. Because some of the end users are not great with technology, this will be key.
 
 ### Privacy
 
@@ -86,7 +91,7 @@ The privacy implications of a digital technology or digital outcome (e.g. a webs
 
 This implication is important because I will be storing members key information like name, phone, email etc etc.
 
-I will need to consider how I design and layout the website to provide the most secure way to storing and holding the information so only the authorized people can access this information as well as endeavour to only hold the needed information and nothing else.
+To make sure I achieve this, I will need consider data base layout and the permissions that the each end user have to provide the most secure way to storing and holding the information so only the authorized people can access this information as well as endeavour to only hold the needed information and nothing else. 
 
 ### Legal
 
