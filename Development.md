@@ -56,7 +56,7 @@ Basic layout of the website UI and possible media/text. This was based on the in
 ### 2024/05/30
 #### Development: UI Design v0.2
 I have add more go back and cancel buttons, making it easier to navigate around the website for users who are on the older side and don't understand the web as well. The association does have a percentage of members who are over 70 and as not as tech savy. This was mentioned by the stakeholder when he saw the first iteration of the basic UI. He was happy with the flow diagram but wanted it more replicated in the basic ui.
->"I like the more concise way of navigation, being able to cancel at every stage and providing that way back. This makes it accessible to all our members."
+>"I like the more concise navigation, being able to cancel at every stage and providing that way back. This makes it accessible to all our members."
 ##### Related Media
 ![Basic layout of ui 2](images/uiBasic2.png)
 
@@ -67,3 +67,11 @@ I have add more go back and cancel buttons, making it easier to navigate around 
 I have generated a colour scheme, I will send this through to my stakeholder to receive some feedback which will be listed here. I choose this neutral colour scheme because its easy to see and read and the blues are linked to the ocean. Ignore the weird looking whites, these are to show that information will be put there, not related to the colours
 ##### Related Media
 ![Basic Layout of ui 3](images/uiBasic3.png)
+
+#
+
+### 2024/6/11
+#### Development: UI Design v0.4
+I have updated the current basic UI design to include text and to show more of the suggested functionality of the website and how some of the information will be displayed. I will be submitting this to my stakeholder to receive feedback.
+##### Related Media
+![Basic Layout of UI 4](images/uiBasic4.png)
