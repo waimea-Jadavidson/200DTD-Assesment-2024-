@@ -75,3 +75,20 @@ I have generated a colour scheme, I will send this through to my stakeholder to 
 I have updated the current basic UI design to include text and to show more of the suggested functionality of the website and how some of the information will be displayed. I will be submitting this to my stakeholder to receive feedback.
 ##### Related Media
 ![Basic Layout of UI 4](images/uiBasic4.png)
+
+#
+
+### 2024/06/13
+#### Development: UI Design v0.5
+I have updated my look to be more cleaner and efficient, I did this after receiving some feedback from my pairs on how the website flowed and how the UI was designed. I am happy with this newer design and it is an improvement. I showed my previous design to my stakeholder. The feedback has been mentioned down below and this is why I asked for some advice from my pairs.
+> You have everything there, but I feel as if the UI is too cluttered and your design with some of the buttons needs to fixed and you need to be more consistent with the buttons and how you color them and linking them. This is important because the association has older members who are not as tech savy. It needs to flow.
+##### Related Media
+![Basic Layout of UI 5](images/uiBasic5.png)
+
+#
+
+### 2024/06/13
+#### Development: New Member and Event Forum Page 
+Updated the new event and member forum page to be with the new style.
+##### Related Media
+![Updated Forums Page of UI](images/uiBasic6.png)
