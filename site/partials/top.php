@@ -10,17 +10,17 @@
 
     <title><?= SITE_NAME ?></title>
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.classless.slate.min.css"/>
+    <link rel="stylesheet" href="styles.css"/>
 </head>
 
 <body>
 
     <header>
-        <h1><?= SITE_NAME ?></h1>
+        <img src=<?= HEADER_PIC ?> alt="Logo">
+        <h1><?= HEADER ?></h1>
 
         <nav>
-            <a href="index.php"     class="<?= $page=='index.php'     ? 'active' : '' ?>">Home</a>
-            <a href="adminLogin.php" class="<?= $page=='adminLogin.php' ? 'active' : '' ?>">Admin Page</a>
+            <a href="admin.php" class="<?= $page=='admin.php' ? 'active' : '' ?>">Admin</a>
         </nav>
     </header>
 

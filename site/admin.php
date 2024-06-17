@@ -6,9 +6,7 @@ include 'partials/top.php'; ?>
 $db = connectToDB();
 ?>
 
-<homeImage>
-    <img src="devImages/nzfda_header.jpg" alt="">
-</homeImage>
+<h1>Admin</h1>
 
 
 <?php include 'partials/bottom.php'; ?>
