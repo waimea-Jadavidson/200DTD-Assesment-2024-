@@ -20,6 +20,15 @@ html{
 body{
     margin: 0;
     color: var(--text);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+
+    flex:1;
+
 }
 
 /* HEADER **************************************************/
@@ -38,11 +47,23 @@ header {
 }
 
 header img {
+    width: 5rem;
 
+}
 
-    max-width: 50%;
-    max-height: 50%;
+#eventName{
+        max-width: fit-content;
+        background-color: var(--accent);
+        padding: 0 9rem;
+        border-radius: 0.5rem;
+        margin-top: 0;
+}
 
+#eventHeader{
+
+    display:flex;
+    justify-content: center;
+    margin-top: 3rem;
 
 }
 
@@ -69,11 +90,70 @@ nav a.active {
 
 /* Main ********************************************/
 
-.homeImage {
+#homeImage {
 
-margin: auto 0;
+margin: auto;
 
 }
+
+#eventButton {
+
+    text-decoration: none;
+    color: var(--text);
+    background-color: var(--secondary);
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+#eventList {
+
+    list-style: none;
+    display: flex;
+    margin: 1rem;
+
+}
+
+/* Events *********************************************************/
+
+#events{
+
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 3rem;
+
+}
+
+#events .event{
+    
+    background-color: var(--secondary);
+    padding: 1rem;
+    border-radius: 10px;
+    width: 30%;
+
+}
+
+#eventButtons {
+
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 3rem;
+
+}
+
+#eventButtons a {
+
+    text-decoration: none;
+    color: var(--text);
+    background-color: var(--accent);
+    padding: 1rem;
+    max-width: fit-content;
+    border-radius: 10px;
+
+}
+
 
 /* FOOTER ****************************************************/
 
