@@ -10,14 +10,14 @@
 
     <title><?= SITE_NAME ?></title>
 
-    <link rel="stylesheet" href="styles.css"/>
+    <link rel="stylesheet" href="css/styles.css"/>
 </head>
 
 <body>
 
     <header>
         <img src=<?= HEADER_PIC ?> alt="Logo">
-        <h1><?= HEADER ?></h1>
+        <h1><span class="abbreviation"><?= SITE_NAME ?></span><span class="full-name"><?= SITE_NAME_FULL ?></span></h1>
 
         <nav>
             <a href="admin.php" class="<?= $page=='admin.php' ? 'active' : '' ?>">Admin</a>

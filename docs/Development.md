@@ -92,3 +92,10 @@ I have updated my look to be more cleaner and efficient, I did this after receiv
 Updated the new event and member forum page to be with the new style.
 ##### Related Media
 ![Updated Forums Page of UI](images/uiBasic6.png)
+
+
+### 2024/06/24
+#### Development: Event Page Created in Html/CSS 
+I have created the events list page for public and club members in html and css
+##### Related Media
+![list-event Page Image](images/ui1.png)

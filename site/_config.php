@@ -1,9 +1,9 @@
 <?php
 
 define('SITE_NAME', 'NZFDA');
-define('HEADER', 'New Zealand Flying Dutchman Association');
+define('SITE_NAME_FULL', 'New Zealand Flying Dutchman Association');
 define('SITE_AUTHOR', 'Jasper Davidson');
-define('HEADER_PIC', 'devImages/NZFDA_Logo.jpg');
+define('HEADER_PIC', 'images/NZFDA_Logo.jpg');
 
 ?>
 

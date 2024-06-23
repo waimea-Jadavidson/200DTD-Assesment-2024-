@@ -24,7 +24,7 @@ try{
             foreach($events as $event){
                 echo '<article class="event">';
                     
-                    echo '<h2 id=eventName>'.$event['name'].'</h2>';
+                    echo '<h2 class=eventName>'.$event['name'].'</h2>';
                     echo '<p>Event Name: '.$event['name'].'</p>';
                     echo '<p>Event Location: '.$event['location'].'</p>';
                     echo '<p>Event Date: '.$event['sDateTime'].' to '.$event['fDateTime'].'</p>';
