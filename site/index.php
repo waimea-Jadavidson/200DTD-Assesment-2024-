@@ -7,7 +7,7 @@ $db = connectToDB();
 ?>
 
 <homeImage>
-    <img src="devImages/nzfda_header.jpg" alt="">
+    <img src="images/nzfda_header.jpg" alt="">
 </homeImage>
 
 <eventsList>

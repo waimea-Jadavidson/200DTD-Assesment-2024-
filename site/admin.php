@@ -29,42 +29,38 @@ try{
 
 <h1 id="adminHeader">Admin</h1>
 
+<section class="admin">
 
-<section id="event">
-        <?php
-            foreach($events as $event){
-                echo '<article class="event">';
-                    
-                    echo '<h2 id=eventName>'.$event['name'].'</h2>';
-                    echo '<p>Event Name: '.$event['name'].'</p>';
-                    echo '<p>Event Location: '.$event['location'].'</p>';
-                    echo '<p>Event Date: '.$event['sDateTime'].' to '.$event['fDateTime'].'</p>';
-                    echo '<p>Event Description: '.$event['description'].'</p>';
+    <article class="eventAdmin">
 
-                    echo '<div id="eventButtons">';
-                        echo '<a href="confrimPage.php?id='.$event['id'].'">Confrim</a>';
-                        echo '<a href="eventPage.php?id='.$event['id'].'">More Info</a>';
-                    echo '</div>';
-                echo '</article>';
-            }
-        ?>
+        <h2 class="eventName">Events</h2>
+        
+        <p>Number of Upcoming Events: <?=count($events)?></p>
+        <p>Events: <?php echo'<br>'; foreach($events as $event){echo $event['name'] . '<br>';} ;?></p>
+
+        <div id="eventButtons">
+            <a href="forum-newEvent.php">New Event</a>
+        </div>
+
+    </article>
+
+    <articles class="eventAdmin">
+
+        <h2 class="eventName">Members</h2>
+
+        <p>Number of Members: <?=count($members)?></p>
+        <p>Members: <?php echo'<br>'; foreach($members as $member){echo $member['name'] . '<br>';} ;?></p>
+
+        <div id="eventButtons">
+            <a href="forum-newMember.php">New Member</a>
+        </div>
+
+
+    </article>
+
+
 </section>
 
-<section id="member">
-        <?php
-            foreach($members as $member){
-                echo '<article class="event">';
-                    
-                    echo '<p>Testing</p>';
-
-                    echo '<div id="eventButtons">';
-                        echo '<a href="confrimPage.php?id='.$event['id'].'">Confrim</a>';
-                        echo '<a href="eventPage.php?id='.$event['id'].'">More Info</a>';
-                    echo '</div>';
-                echo '</article>';
-            }
-        ?>
-</section>
 
 
 <?php include 'partials/bottom.php'; ?>

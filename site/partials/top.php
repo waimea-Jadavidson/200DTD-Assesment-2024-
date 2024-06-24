@@ -17,7 +17,7 @@
 
     <header>
         <img src=<?= HEADER_PIC ?> alt="Logo">
-        <h1><span class="abbreviation"><?= SITE_NAME ?></span><span class="full-name"><?= SITE_NAME_FULL ?></span></h1>
+        <a href="index.php"><h1><span class="abbreviation"><?= SITE_NAME ?></span><span class="full-name"><?= SITE_NAME_FULL ?></span></h1></a>
 
         <nav>
             <a href="admin.php" class="<?= $page=='admin.php' ? 'active' : '' ?>">Admin</a>

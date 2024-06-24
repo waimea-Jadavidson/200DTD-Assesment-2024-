@@ -93,9 +93,26 @@ Updated the new event and member forum page to be with the new style.
 ##### Related Media
 ![Updated Forums Page of UI](images/uiBasic6.png)
 
+#
 
 ### 2024/06/24
 #### Development: Event Page Created in Html/CSS 
 I have created the events list page for public and club members in html and css
 ##### Related Media
 ![list-event Page Image](images/ui1.png)
+
+#
+
+### 2024/06/25
+### Development: Header now allows for navigation back to home page
+I have made the header a link, so people can now navigate back to the home page easily
+##### Related Media
+![Header Link Back Image](images/ui2.png)
+
+#
+
+### 2024/06/25
+### Development: UI Update
+After talking to my stakeholder, we released we do not actuallly need the more information button as we currently display all the info in the vent box on events list page. So I have removed anything to do with this. It makes the website function better as well as flow around and not confuse any users.
+##### Related Media
+![eventUpdate](image.png)

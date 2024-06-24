@@ -32,7 +32,6 @@ try{
 
                     echo '<div id="eventButtons">';
                         echo '<a href="confrimPage.php?id='.$event['id'].'">Confrim</a>';
-                        echo '<a href="eventPage.php?id='.$event['id'].'">More Info</a>';
                     echo '</div>';
                 echo '</article>';
             }
