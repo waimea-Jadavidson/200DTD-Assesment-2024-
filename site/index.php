@@ -2,17 +2,9 @@
 require 'lib/utils.php';
 include 'partials/top.php'; ?>
 
-<?php
-$db = connectToDB();
-?>
 
-<homeImage>
-    <img src="images/nzfda_header.jpg" alt="">
-</homeImage>
+<img id="hero" src="images/hero.png" alt="Sailing" >
 
-<eventsList>
-    <a id="eventButton"href="list-events.php">Events List</a>
-</eventsList>
-
+<a id="eventButton" href="list-events.php">Events List</a>
 
 <?php include 'partials/bottom.php'; ?>

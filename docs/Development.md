@@ -113,6 +113,24 @@ I have made the header a link, so people can now navigate back to the home page 
 
 ### 2024/06/25
 ### Development: UI Update
-After talking to my stakeholder, we released we do not actuallly need the more information button as we currently display all the info in the vent box on events list page. So I have removed anything to do with this. It makes the website function better as well as flow around and not confuse any users.
+After talking to my stakeholder, we released we do not actually need the more information button as we currently display all the info in the vent box on events list page. So I have removed anything to do with this. It makes the website function better as well as flow around and not confuse any users.
 ##### Related Media
 ![eventUpdate](image.png)
+
+#
+
+### 2024/06/27
+#### Development: Landing page update
+I have updated the header image, I will then change the layout and make it look better and move alot more efficiently.
+##### Related Media
+![headerPAge](images/ui3.png)
+
+#
+
+### 2024/06/27
+#### Development: Admin Page Update
+I have updated my admin page to expand and scale just like my figma mock up.
+> I am liking the progress you are making so far Jasper, just make sure that you are including the navigation features so people can get around easily.
+
+##### Related Media
+![adminPAge](images/ui4.png)
