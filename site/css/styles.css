@@ -230,8 +230,21 @@ form{
     padding: 1rem;
     background-color: var(--accent);
     border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
     
 
+}
+
+label{
+
+    padding-top: 1rem;
+ 
+
+}
+
+input {
+    margin-bottom: 1rem;
 }
 
 /* FOOTER ****************************************************/

@@ -134,3 +134,11 @@ I have updated my admin page to expand and scale just like my figma mock up.
 
 ##### Related Media
 ![adminPAge](images/ui4.png)
+
+#
+
+### 2024/07/1
+#### Development: New Event Forum
+I have created the new event forum, this will allow for the Admin to put in new events
+##### Related Media
+![Intial Forum](image-1.png)

@@ -6,6 +6,7 @@ $name = $_POST["name"];
 $location = $_POST["location"];
 $sDateTime = $_POST["sDateTime"];
 $fDateTime = $_POST["fDateTime"];
+$description = $_POST["description"];
 
 
 // Connects to DB
@@ -13,12 +14,12 @@ $db = connectToDB();
 consoleLog($db);
 
 // Query
-$query = 'INSERT INTO `events` (`name`, `location`, `sDateTime`, `fDateTime`) VALUES (?,?,?,?)';
+$query = 'INSERT INTO `events` (`name`, `location`, `sDateTime`, `fDateTime`, `description`) VALUES (?,?,?,?,?)';
 
 // Error Catching and sending and requesting Data
 try {
       $stmt = $db->prepare($query);
-      $stmt->execute([$name,$location,$sDateTime,$fDateTime]);
+      $stmt->execute([$name,$location,$sDateTime,$fDateTime,$description]);
 
 } catch (PDOException $e) {
     consoleLog($_POST, 'POST Data');
