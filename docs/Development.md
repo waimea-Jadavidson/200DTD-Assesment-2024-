@@ -142,3 +142,13 @@ I have updated my admin page to expand and scale just like my figma mock up.
 I have created the new event forum, this will allow for the Admin to put in new events
 ##### Related Media
 ![Intial Forum](image-1.png)
+
+
+#
+
+### 2024/07/22
+#### Development: Memeber Attending Event
+During the holidays I acquired some stakeholder feedback on current progress
+>I like the progress you have made so far Jasper, the website has come a long way colour and design wise. However I am concerned with the lack of functionality at the moment, lots of the key features are currently missing, like attending events and adding new members as well. I would like to see some more functionality added in please.
+##### Related Media
+![DB Image](image-2.png)

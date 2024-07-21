@@ -5,21 +5,21 @@ require 'lib/utils.php';
 $name = $_POST["name"];
 $email = $_POST["email"];
 $phone = $_POST["phone"];
-$date = $_POST["date"];
-$time = $_POST["time"];
-$service = $_POST["service"];
+$boat = $_POST["boat"];
+$role = $_POST["role"];
+
 
 // Connects to DB
 $db = connectToDB();
 consoleLog($db);
 
 // Query
-$query = 'INSERT INTO `bookings` (`name`, `email`, `phone`, `date`, `time`, `service`) VALUES (?,?,?,?,?,?)';
+$query = 'INSERT INTO `members` (`name`, `email`, `phone`, `boat`, `role`) VALUES (?,?,?,?,?)';
 
 // Error Catching and sending and requesting Data
 try {
       $stmt = $db->prepare($query);
-      $stmt->execute([$name, $email, $phone, $date, $time, $service]);
+      $stmt->execute([$name, $email, $phone, $boat, $role]);
 
 } catch (PDOException $e) {
     consoleLog($_POST, 'POST Data');
@@ -27,6 +27,6 @@ try {
     die("ERROR ERROR ERROR, can you spot the difference?");
 }
 
-header('location: index.php');
+header('location: admin.php');
 
 ?>
