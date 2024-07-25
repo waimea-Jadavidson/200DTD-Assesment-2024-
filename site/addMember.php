@@ -5,7 +5,6 @@ require 'lib/utils.php';
 $name = $_POST["name"];
 $email = $_POST["email"];
 $phone = $_POST["phone"];
-$boat = $_POST["boat"];
 $role = $_POST["role"];
 
 
@@ -14,12 +13,13 @@ $db = connectToDB();
 consoleLog($db);
 
 // Query
-$query = 'INSERT INTO `members` (`name`, `email`, `phone`, `boat`, `role`) VALUES (?,?,?,?,?)';
+$query = 'INSERT INTO `members` (`name`, `email`, `phone`, `role`) VALUES (?,?,?,?)';
 
 // Error Catching and sending and requesting Data
 try {
       $stmt = $db->prepare($query);
-      $stmt->execute([$name, $email, $phone, $boat, $role]);
+      $stmt->execute([$name, $email, $phone, $role]);
+      $memberID = $db->lastInsertId();
 
 } catch (PDOException $e) {
     consoleLog($_POST, 'POST Data');
@@ -27,6 +27,6 @@ try {
     die("ERROR ERROR ERROR, can you spot the difference?");
 }
 
-header('location: admin.php');
+header('location: forum-boatPicker.php?member=' . $memberID);
 
 ?>

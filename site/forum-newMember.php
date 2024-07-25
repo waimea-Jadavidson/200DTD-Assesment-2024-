@@ -13,9 +13,6 @@ include 'partials/top.php'; ?>
     <label for="">Phone</label>
     <input name="phone" type="tel" placeholder="02109102664"  required>
 
-    <label for="">Boat</label>
-    <input name="boat" type="text" placeholder= "Sail Number(excluding NZL)"  required>
-
     <label for="">Role</label>
     <input name="role" type="text" minlength="1" placeholder="Helm or Crew" required>
 
