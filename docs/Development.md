@@ -152,3 +152,13 @@ During the holidays I acquired some stakeholder feedback on current progress
 >I like the progress you have made so far Jasper, the website has come a long way colour and design wise. However I am concerned with the lack of functionality at the moment, lots of the key features are currently missing, like attending events and adding new members as well. I would like to see some more functionality added in please.
 ##### Related Media
 ![DB Image](image-2.png)
+
+#
+
+### 2024/08/1
+#### Development: New Member and Boat Signup
+I have made the new member and boat signup pages, I have also been able to setup the attending page so that the admin will be able to see who is attending. I have also updated all fourms with a cancel option so they can go back
+>I am seeing some positive progress being made, however you are missing the functionality where we are able to back out of all actions easily
+##### Related Media
+![Alt text](image-3.png)
+![Alt text](image-4.png)

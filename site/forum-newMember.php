@@ -18,6 +18,11 @@ include 'partials/top.php'; ?>
 
     <input type="submit" value="Submit New Member">
 
+    <div id="boatButton">
+            <a href="admin.php">Cancel</a>
+        </div>
+
+
 </form>
 
 <?php include 'partials/bottom.php'; ?>

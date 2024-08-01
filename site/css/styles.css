@@ -176,6 +176,26 @@ nav a.active {
 
 }
 
+#boatButton a {
+
+    text-decoration: none;
+    color: var(--text);
+    background-color: var(--secondary);
+    padding: 1rem;
+    max-width: fit-content;
+    border-radius: 10px;
+
+}
+
+#boatButton {
+
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 3rem;
+
+}
+
 .eventName{
     /* max-width: fit-content; */
     background-color: var(--accent);

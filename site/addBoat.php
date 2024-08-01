@@ -7,7 +7,7 @@ $sailNumber = $_POST['sailNumber'];
 $name = $_POST['name'];
 $helm = $_POST['helm'];
 $crew = $_POST['crew'];
-$uid = $_POST['member']
+$uid = $_POST['member'];
 
 
 // Connects to DB

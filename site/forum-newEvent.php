@@ -21,6 +21,11 @@ include 'partials/top.php'; ?>
 
     <input type="submit" value="Submit New Event">
 
+    <div id="boatButton">
+            <a href="admin.php">Cancel</a>
+        </div>
+
+
 </form>
 
 
