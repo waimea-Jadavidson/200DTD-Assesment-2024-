@@ -36,7 +36,9 @@ try{
         <h2 class="eventName">Events</h2>
         
         <p>Number of Upcoming Events: <?=count($events)?></p>
-        <p>Events: <?php echo'<br>'; foreach($events as $event){echo $event['name'] . '<br>';} ;?></p>
+        <p>Events: 
+            <?php echo'<br>'; foreach($events as $event){echo '<a class="button1" href="eventDisplay.php?id='.$event['id'].'">'. $event['name'] . '</a></br>';} ;?> 
+        </p>
 
         <div id="eventButtons">
             <a href="forum-newEvent.php">New Event</a>
@@ -49,7 +51,10 @@ try{
         <h2 class="eventName">Members</h2>
 
         <p>Number of Members: <?=count($members)?></p>
-        <p>Members: <?php echo'<br>'; foreach($members as $member){echo $member['name'] . '<br>';} ;?></p>
+        <p>Members: 
+             <?php echo'<br id="paddingTest">'; foreach($members as $member){echo '<a class="button1" href="memberDisplay.php?id='.$member['uid'].'">'.$member['name'] . '</a></br>';} ;?>
+             
+        </p>
 
         <div id="eventButtons">
             <a href="forum-newMember.php">New Member</a>

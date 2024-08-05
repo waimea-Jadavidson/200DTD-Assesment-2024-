@@ -38,5 +38,8 @@ try{
         ?>
 </section>
 
+<div id="boatButton3">
+            <a href="index.php">Go Back</a>
+        </div>
 
 <?php include 'partials/bottom.php'; ?>

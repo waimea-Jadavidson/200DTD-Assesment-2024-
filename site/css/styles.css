@@ -124,6 +124,9 @@ nav a.active {
     background-color: var(--secondary);
     padding: 1rem;
     border-radius: 1rem;
+    margin: 1rem auto;
+    display: block;
+    width: fit-content;
 }
 
 #eventList {
@@ -163,6 +166,7 @@ nav a.active {
     gap: 2rem;
     margin-top: 3rem;
 
+
 }
 
 #eventButtons a {
@@ -173,6 +177,7 @@ nav a.active {
     padding: 1rem;
     max-width: fit-content;
     border-radius: 10px;
+    
 
 }
 
@@ -192,9 +197,48 @@ nav a.active {
     display: flex;
     justify-content: center;
     gap: 2rem;
+}
+
+#boatButton2 {
+
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
     margin-top: 3rem;
 
 }
+
+#boatButton2 a {
+
+    text-decoration: none;
+    color: var(--text);
+    background-color: var(--accent);
+    padding: 1rem;
+    max-width: fit-content;
+    border-radius: 10px;
+
+}
+
+#boatButton3 {
+
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 3rem;
+
+}
+
+#boatButton3 a {
+
+    text-decoration: none;
+    color: var(--text);
+    background-color: var(--secondary);
+    padding: 1rem;
+    max-width: fit-content;
+    border-radius: 10px;
+
+}
+
 
 .eventName{
     /* max-width: fit-content; */
@@ -213,6 +257,60 @@ justify-content: center;
 margin-top: 3rem;
 
 }
+
+.button1 {
+
+text-decoration: none;
+color: var(--text);
+
+}
+
+
+
+.button1:hover {
+
+    background-color: var(--accent);
+    border-radius: 10px;
+    padding: 0.2rem;
+    }
+
+#memberInfo{
+    background-color: var(--secondary);
+    padding: 1rem;
+    border-radius: 10px;
+    max-width: 25rem;
+    width: 100%;
+}
+
+#memberMain{
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 3rem;
+
+}
+
+
+
+#eventInfo{
+    background-color: var(--secondary);
+    padding: 1rem;
+    border-radius: 10px;
+    max-width: 25rem;
+    width: 100%;
+}
+
+#eventMain{
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 3rem;
+
+}
+
+
 
 /* ADMIN PAGE ***********************************************/
 
@@ -256,15 +354,26 @@ form{
 
 }
 
-label{
+#seperateBox{
 
-    padding-top: 1rem;
- 
+    width: max-content;
+    margin: 2rem auto;
+    padding: 1rem;
+    background-color: var(--accent);
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    
 
 }
 
-input {
+
+
+input,select{
     margin-bottom: 1rem;
+    padding: 0.25rem;
+    border-radius: 4.5px;
+    border: none;
 }
 
 /* FOOTER ****************************************************/

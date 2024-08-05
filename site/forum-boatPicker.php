@@ -57,7 +57,7 @@ try{
             }
         ?>
     </select>
-    <h2>Existing Boat</h2>
+    <h2 style="margin-bottom: 0px;">Existing Boat</h2>
     <label for="">Boat Sail Number</label>
     <select id="sailNumber" name="sailNumber">
         <?php 
@@ -67,12 +67,14 @@ try{
         ?>
     </select>
     
-    <input type="submit" value="Submit">
+    <input type="submit" value="Submit" style="margin-top: 10px;">
     
-    <h2>No Boat</h2>        
+   <section id="seperateBox">
+   <h2 style="text-align: center;">Please click here, if no boat</h2>        
     <div id="boatButton">
             <a href="admin.php">No Boat</a>
-        </div>
+        </div>     
+   </section>
 
 </form>
 

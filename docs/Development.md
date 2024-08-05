@@ -162,3 +162,12 @@ I have made the new member and boat signup pages, I have also been able to setup
 ##### Related Media
 ![Alt text](image-3.png)
 ![Alt text](image-4.png)
+
+#
+
+### 2024/08/1
+#### Development: Phone Responsiveness
+I have made sure that my website is mobile phone compatabile. In the start I said that it was not going to be needed. But to meet my key heuristics of functionality
+and meeting end users. I have add this feature to so that it is functional on the go and people who are mobile phone savy are able to access and use this website via phones.
+##### Related Media
+![Alt text](image-5.png)
