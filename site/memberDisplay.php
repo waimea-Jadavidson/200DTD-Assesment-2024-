@@ -26,9 +26,12 @@ try{
 <?php echo'<br>'; foreach($members as $member){echo 'Phone: '.$member['phone'].'</br>';} ;?>
 <?php echo'<br>'; foreach($members as $member){echo 'Boat: '.$member['boat'].'</br>';} ;?>
 <?php echo'<br>'; foreach($members as $member){echo 'Role: '.$member['role'].'</br>';} ;?>
-<div id="boatButton2">
+<div class="boatButton2">
             <a href="admin.php">Go Back</a>
         </div>
+<div class="boatButton2">
+    <a href="memberDelete.php?id=<?=$member['uid']?>">Delete</a>
+</div>
 </section>
 </section>
 <?php include 'partials/bottom.php'; ?>

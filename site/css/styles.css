@@ -159,7 +159,7 @@ nav a.active {
 
 }
 
-#eventButtons {
+.eventButtons {
 
     display: flex;
     justify-content: center;
@@ -169,7 +169,7 @@ nav a.active {
 
 }
 
-#eventButtons a {
+.eventButtons a {
 
     text-decoration: none;
     color: var(--text);
@@ -199,7 +199,7 @@ nav a.active {
     gap: 2rem;
 }
 
-#boatButton2 {
+.boatButton2 {
 
     display: flex;
     justify-content: center;
@@ -208,7 +208,7 @@ nav a.active {
 
 }
 
-#boatButton2 a {
+.boatButton2 a {
 
     text-decoration: none;
     color: var(--text);
@@ -293,7 +293,7 @@ color: var(--text);
 
 
 
-#eventInfo{
+.infoBox{
     background-color: var(--secondary);
     padding: 1rem;
     border-radius: 10px;

@@ -141,7 +141,7 @@ I have updated my admin page to expand and scale just like my figma mock up.
 #### Development: New Event Forum
 I have created the new event forum, this will allow for the Admin to put in new events
 ##### Related Media
-![Intial Forum](image-1.png)
+![Intial Forum](images/image-1.png)
 
 
 #
@@ -151,7 +151,7 @@ I have created the new event forum, this will allow for the Admin to put in new 
 During the holidays I acquired some stakeholder feedback on current progress
 >I like the progress you have made so far Jasper, the website has come a long way colour and design wise. However I am concerned with the lack of functionality at the moment, lots of the key features are currently missing, like attending events and adding new members as well. I would like to see some more functionality added in please.
 ##### Related Media
-![DB Image](image-2.png)
+![DB Image](images/image-2.png)
 
 #
 
@@ -160,8 +160,8 @@ During the holidays I acquired some stakeholder feedback on current progress
 I have made the new member and boat signup pages, I have also been able to setup the attending page so that the admin will be able to see who is attending. I have also updated all fourms with a cancel option so they can go back
 >I am seeing some positive progress being made, however you are missing the functionality where we are able to back out of all actions easily
 ##### Related Media
-![Alt text](image-3.png)
-![Alt text](image-4.png)
+![Alt text](images/image-3.png)
+![Alt text](images/image-4.png)
 
 #
 
@@ -170,7 +170,7 @@ I have made the new member and boat signup pages, I have also been able to setup
 I have made sure that my website is mobile phone compatabile. In the start I said that it was not going to be needed. But to meet my key heuristics of functionality
 and meeting end users. I have add this feature to so that it is functional on the go and people who are mobile phone savy are able to access and use this website via phones.
 ##### Related Media
-![Alt text](image-5.png)
+![Alt text](images/image-5.png)
 
 #
 
@@ -179,9 +179,21 @@ and meeting end users. I have add this feature to so that it is functional on th
 I have updated some pages to have cancel and go back buttons for more concise navigation. I created and events and member information display page, so information concerning the events and members have a display, this is accessed by clicking on them from the admin panel. I fixed the main button on the homepage and I updated the boat picker form page to look nicer and flow better. I ran one page through a validater and I got 20 errors which are mainly br end tags. Not to hard to fix.
 > I am very impressed with the progress you have made Jasper, it's leaps and bounds ahead of what it was a week ago. I like how you have made sure to update the pages with navigation aid buttons, this will help with our older generation of sailors. However I would like to see a way to see who is actually attending events and a way to delete members from the Database. I would consider this core functionality and would like to see it in the end product.
 ##### Related Media
+![Alt text](images/image-6.png)
+![Alt text](images/image-7.png)
+![Alt text](images/image-8.png)
+![Alt text](images/image-9.png)
+![Alt text](images/image-10.png)
 
-![Alt text](image-6.png)
-![Alt text](image-7.png)
-![Alt text](image-8.png)
-![Alt text](image-9.png)
-![Alt text](image-10.png)
+#
+
+### 2024/08/8
+#### Development: HTML Validation
+All pages have been HTML Validated, I have also created the function to delete events and delete members
+##### Related Media
+![Alt text](images/image-11.png)
+![Alt text](images/image-12.png)
+![Alt text](images/image-13.png)
+![Alt text](images/image-14.png)
+![Alt text](images/image-15.png)
+![Alt text](images/image-16.png)

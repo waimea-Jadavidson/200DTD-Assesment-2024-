@@ -34,35 +34,35 @@ try{
 
     <input name="member" type="hidden" value="<?= $memberID ?>">
     <h2>New Boat</h2>
-    <label for="">Sail Number</label>
+    <label>Sail Number</label>
     <input name="sailNumber" type="text" minlength="1" placeholder="e.g (Excluding NZL) 99">
 
-    <label for="">Boat Name</label>
+    <label>Boat Name</label>
     <input name="name" type="text" minlength="1" placeholder="e.g (Excluding NZL) 99">
 
-    <label for="">Helm</label>
+    <label>Helm</label>
     <select id="helm" name="helm">
         <?php 
             foreach($members as $member){
-                echo'<option value"helm">'.$member['name'].'</option>';
+                echo'<option value="helm">'.$member['name'].'</option>';
             }
         ?>
     </select>
 
-    <label for="">Crew</label>
+    <label>Crew</label>
     <select id="crew" name="crew">
         <?php 
             foreach($members as $member){
-                echo'<option value"crew">'.$member['name'].'</option>';
+                echo'<option value="crew">'.$member['name'].'</option>';
             }
         ?>
     </select>
     <h2 style="margin-bottom: 0px;">Existing Boat</h2>
-    <label for="">Boat Sail Number</label>
+    <label>Boat Sail Number</label>
     <select id="sailNumber" name="sailNumber">
         <?php 
             foreach($boats as $boat){
-                echo'<option value"helm">'.$boat['sailNumber'].'</option>';
+                echo'<option value="helm">'.$boat['sailNumber'].'</option>';
             }
         ?>
     </select>

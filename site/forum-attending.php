@@ -10,16 +10,16 @@ consoleLog($eventID);
 
 <form method="POST" action="confrimPage.php">
 
-    <label for="">Please enter Phone Number</label>
-    <input name="phone" type="text" minlength="1" placeholder="e.g 54" required>
+    <label>Please enter Phone Number</label>
+    <input name="phone" type="text"  placeholder="e.g 02109102664" required>
     
-    <input name="id" type="hidden" minlength="1" placeholder="e.g 54" required value="<?=$eventID?>">
+    <input name="id" type="hidden" value="<?=$eventID?>">
    
 
     <input type="submit" value="Submit">
 
     <div id="boatButton">
-            <a href="admin.php">Cancel</a>
+            <a href="list-events.php">Cancel</a>
         </div>
 
 </form>
