@@ -116,11 +116,11 @@ I will need to consider all of the mentioned implications above as the all come 
 
 ### Database Structure
 
-Place a image here that shows the *final design* of your database: tables, fields and relationships.
+![Final DB Image](db1.png)
 
 ### User Interface Design
 
-Place images here that show your *final design* of your UI: layout, colours, etc.
+![Alt text](web2.png)
 
 
 -------------------------------------------------

@@ -197,3 +197,12 @@ All pages have been HTML Validated, I have also created the function to delete e
 ![Alt text](images/image-14.png)
 ![Alt text](images/image-15.png)
 ![Alt text](images/image-16.png)
+
+#
+
+### 2024/08/12
+#### Development: Fixing members not being able to be deleted
+I had to be able to delete members, but because it was in another table I had to delete it from there first. Hence fixing my problem and ticking off another functionality part of the website. I have also bolded the two text things here as per the figma design, so people can tell that this is important and a heading.
+##### Related Media
+![Alt text](image-3.png)
+![Alt text](image-4.png)

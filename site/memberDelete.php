@@ -8,6 +8,16 @@ consoleLog($uid);
 
 $db = connectToDB();
 
+$query = 'DELETE FROM attending WHERE member=?';
+
+try{
+    $stmt = $db->prepare($query);
+    $stmt->execute([$uid]); // Passes in data
+} catch (PDOException $e) {
+    consoleLog($e->getMessage(), 'DB delete Error', ERROR);
+    die("ERROR ERROR ERROR, Error Deleting Member");
+}
+
 $query = 'DELETE FROM members WHERE uid=?';
 
 try{

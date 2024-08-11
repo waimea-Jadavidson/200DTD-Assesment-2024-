@@ -12,7 +12,7 @@ $query = 'DELETE FROM events WHERE id=?';
 
 try{
     $stmt = $db->prepare($query);
-    $stmt->execute([$uid]); // Passes in data
+    $stmt->execute([$id]); // Passes in data
 } catch (PDOException $e) {
     consoleLog($e->getMessage(), 'DB delete Error', ERROR);
     die("ERROR ERROR ERROR, Error Deleting Member");
