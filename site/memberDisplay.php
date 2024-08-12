@@ -18,7 +18,7 @@ try{
 
 ?>
 <section id="memberMain">
-<h2>Members Information Display</h2>
+<h2 style="width: 100%;text-align: center;">Members Information Display</h2>
 
 <section id="memberInfo">
 <?php echo'<br>'; foreach($members as $member){echo 'Name: '.$member['name'].'</br>';} ;?>
@@ -26,12 +26,12 @@ try{
 <?php echo'<br>'; foreach($members as $member){echo 'Phone: '.$member['phone'].'</br>';} ;?>
 <?php echo'<br>'; foreach($members as $member){echo 'Boat: '.$member['boat'].'</br>';} ;?>
 <?php echo'<br>'; foreach($members as $member){echo 'Role: '.$member['role'].'</br>';} ;?>
+<div class="deleteButton">
+    <a href="memberDelete.php?id=<?=$member['uid']?>">Delete</a>
+</div>
 <div class="boatButton2">
             <a href="admin.php">Go Back</a>
         </div>
-<div class="boatButton2">
-    <a href="memberDelete.php?id=<?=$member['uid']?>">Delete</a>
-</div>
 </section>
 </section>
 <?php include 'partials/bottom.php'; ?>

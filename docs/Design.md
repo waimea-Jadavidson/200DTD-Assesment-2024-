@@ -129,11 +129,14 @@ I will need to consider all of the mentioned implications above as the all come 
 
 ### Database Structure
 
-Place a image here that shows the *actual database structure* that you implemented: tables, fields and relationships.
+![Alt text](image-5.png)
 
 ### User Interface Design
 
-Place screenshots and notes here that show your *actual system UI* in action.
+![Alt text](image-6.png)
+![Alt text](image-7.png)
+![Alt text](image-8.png)
+![Alt text](image-9.png)
 
 
 -------------------------------------------------
@@ -142,15 +145,15 @@ Place screenshots and notes here that show your *actual system UI* in action.
 
 ### Meeting the Needs of the Users
 
-Replace this text with a brief evaluation of how well you met the needs of your users. Look at what you initially wrote about who they are, what specific needs they have, etc. and discuss how well the system meets those needs.
+I have strived to meet the needs of the users to my best ability. The original theme of needs were that it was clean, modern, easy to use and the navigation around the website was clear and had a strong present. To meet these universal needs I have made sure that navigation around the website is easy and efficient with the least amount of clicks possible. Keeping in line with this, it was paramount that I try and design the website in a modern way. The modern design lends its self to my end user requirements with the clean and non cluttered aesthetic. For the admin, being able to manage members and events efficiently was a must. So the whole admin panel is designed around those specifications. Overall I believe I have achieved all of those targets, however I feel like something could of been done better, for example the homepage and events panel for class members and the public. This part could be a lot more efficient and aesthetics wise its not very pleasing. To improve this I would take a bit more time playing with different layouts. If I hadnt started with such an ambitious idea then I feel this would not have been as lacking. But that's just hindsight for you.
 
 ### Meeting the System Requirements
 
-Replace this text with a brief evaluation of how well you met the requirements that you defined at the start of the project, etc. Look back at the list of features / functionality you initially set and discuss how well your system has implemented each one.
+I have implemented all the systems that are required for the national secretary needs to manage members and regattas, this has been achieved in the admin panel. He is able to add, delete and see who is attending events throughout the nation. He is able to add members and there information and delete them if needed. This also extends to boats and being able to assign a member a boat. I feel the boat adding and editing system is lacking in functionality, to improve this I would add a separate panel within the admin system specifically for boat management. For class members, they are able to see upcoming events and to confirm if they are attending the event. This is all done through the event panel.
 
-### Review of IMPLICATION NAME HERE
+### Review of End-User
 
-Replace this text with brief notes showing how the implication was addressed in the final outcome. Accompany the notes with screenshots / other media to illustrate specific features.
+My most important implication was End-Users, throughout this whole project I have strived to work towards the requirements of my End-Users. Whilst I have achieved this, it has not been done to the highest quality.  
 
 ### Review of IMPLICATION NAME HERE
 

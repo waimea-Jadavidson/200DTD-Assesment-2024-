@@ -36,7 +36,7 @@ consoleLog($attendees);
 
 ?>
 <section id="eventMain">
-<h2>Events Information Display</h2>
+<h2 style="width: 100%;text-align: center;">Events Information Display</h2>
 
 <section class="infoBox">
 <br>Name:  <?= $event['name'] ?></br>
@@ -44,12 +44,12 @@ consoleLog($attendees);
 <br>Phone: <?= $event['sDateTime'] ?></br>
 <br>Boat:  <?= $event['fDateTime'] ?></br>
 <br>Role:  <?= $event['description'] ?></br>
+<div class="deleteButton">
+<a href="eventDelete.php?id=<?=$event['id']?>">Delete</a>
+</div>
 <div class="boatButton2">
             <a href="admin.php">Go Back</a>
         </div>
-<div class="boatButton2">
-<a href="eventDelete.php?id=<?=$event['id']?>">Delete</a>
-</div>
 </section>
 <section class="infoBox">
     <h2>Attendes:</h2>

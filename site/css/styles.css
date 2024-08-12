@@ -219,6 +219,26 @@ nav a.active {
 
 }
 
+.deleteButton {
+
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 3rem;
+
+}
+
+.deleteButton a {
+
+    text-decoration: none;
+    color: var(--text);
+    background-color: #b61f1f;
+    padding: 1rem;
+    max-width: fit-content;
+    border-radius: 10px;
+
+}
+
 #boatButton3 {
 
     display: flex;
@@ -255,6 +275,7 @@ nav a.active {
 display:flex;
 justify-content: center;
 margin-top: 3rem;
+width: 100%;
 
 }
 
