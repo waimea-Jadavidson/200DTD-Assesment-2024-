@@ -39,11 +39,11 @@ consoleLog($attendees);
 <h2 style="width: 100%;text-align: center;">Events Information Display</h2>
 
 <section class="infoBox">
-<br>Name:  <?= $event['name'] ?></br>
-<br>Email: <?= $event['location'] ?></br>
-<br>Phone: <?= $event['sDateTime'] ?></br>
-<br>Boat:  <?= $event['fDateTime'] ?></br>
-<br>Role:  <?= $event['description'] ?></br>
+<br><b>Name: </b> <?= $event['name'] ?></br>
+<br><b>Email:</b> <?= $event['location'] ?></br>
+<br><b>Phone:</b> <?= $event['sDateTime'] ?></br>
+<br><b>Boat: </b> <?= $event['fDateTime'] ?></br>
+<br><b>Role: </b> <?= $event['description'] ?></br>
 <div class="deleteButton">
 <a href="eventDelete.php?id=<?=$event['id']?>">Delete</a>
 </div>

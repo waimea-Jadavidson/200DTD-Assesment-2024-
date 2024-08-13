@@ -153,12 +153,20 @@ I have implemented all the systems that are required for the national secretary 
 
 ### Review of End-User
 
-My most important implication was End-Users, throughout this whole project I have strived to work towards the requirements of my End-Users. Whilst I have achieved this, it has not been done to the highest quality.  
+My most important implication was End-Users, throughout this whole project I have strived to work towards the requirements of my End-Users. Whilst I have achieved this, it has not been done to the highest quality. The end user requirements were all linked together, that the website was functional and easy to navigate. I have achieved this by adding in navigation buttons as shown in the photos below. These buttons all for quick and easy navigation. I also made sure to keep UI clean and uncluttered, this means that there is less chance of something breaking or being misleading for people (shown with the events panel). I also used bolding to make it clear what was headings and to display key information. This is demonstrated in the Admin Panel with key metrics as well as the event panel.
 
-### Review of IMPLICATION NAME HERE
+![Alt text](image-10.png)
+![Alt text](image-11.png)
+![Alt text](image-12.png)
+![Alt text](image-13.png)
 
-Replace this text with brief notes showing how the implication was addressed in the final outcome. Accompany the notes with screenshots / other media to illustrate specific features.
 
-### Review of IMPLICATION NAME HERE
+### Review of Privacy
+
+I addressed this outcome by making sure that I only asked for information that was critical in a sense. This means if any thing happens, very is minimal information that can be leaked or stolen. I sourced this information via a form, as shown in photo below. This form is then sent via PHP methods, by using PHP this information is hidden from anyone and sent straight to the server. 
+
+![Alt text](image-14.png)
+
+### Review of Legal
 
 Replace this text with brief notes showing how the implication was addressed in the final outcome. Accompany the notes with screenshots / other media to illustrate specific features.

@@ -26,10 +26,9 @@ try{
                 echo '<article class="event">';
                     
                     echo '<h2 class=eventName>'.$event['name'].'</h2>';
-                    echo '<p>Event Name: '.$event['name'].'</p>';
-                    echo '<p>Event Location: '.$event['location'].'</p>';
-                    echo '<p>Event Date: '.$event['sDateTime'].' to '.$event['fDateTime'].'</p>';
-                    echo '<p>Event Description: '.$event['description'].'</p>';
+                    echo '<p><b>Event Location:</b> '.$event['location'].'</p>';
+                    echo '<p><b>Event Date:</b> '.$event['sDateTime'].' to '.$event['fDateTime'].'</p>';
+                    echo '<p><b>Event Description:</b> '.$event['description'].'</p>';
 
                     echo '<div class="eventButtons">';
                         echo '<a href="forum-attending.php?id='.$event['id'].'">Confrim</a>';

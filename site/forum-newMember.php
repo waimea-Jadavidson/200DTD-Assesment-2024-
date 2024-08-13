@@ -16,7 +16,7 @@ include 'partials/top.php'; ?>
     <label >Role</label>
     <input name="role" type="text" minlength="1" placeholder="Helm or Crew" required>
 
-    <input type="submit" value="Submit New Member">
+    <input type="submit" value="Submit">
 
     <div id="boatButton">
             <a href="admin.php">Cancel</a>
