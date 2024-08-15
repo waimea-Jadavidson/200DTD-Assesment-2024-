@@ -3,8 +3,13 @@ require 'lib/utils.php';
 include 'partials/top.php'; ?>
 
 <?php
+
+// Query and connects to DB, need to display all the events to the Class Members (Cheers Mr Copley for the DB Function)
+
 $db = connectToDB();
 $query = 'SELECT * FROM events';
+
+// Try and Catch Statement to push query through, catches any web breaking errors
 
 try{
     $stmt = $db->prepare($query);
@@ -22,6 +27,7 @@ try{
 <section id="events">
 <h2 id="eventHeader">Events</h2>
         <?php
+            // This code block is need to display the all the events in the DB with correct information. Expands dynamicly
             foreach($events as $event){
                 echo '<article class="event">';
                     

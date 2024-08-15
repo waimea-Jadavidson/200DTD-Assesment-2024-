@@ -219,35 +219,81 @@ I reached out to my stakeholder to recieve some feedback on final result
 
 #### Functionality Test: Admin adding in New Member + Seeing Members
 
-Step 1: Admin See Home Page
+Step 1: Admin See Home Page.
 ![Alt text](image-15.png)
 
-Step 2: Admin access admin panel
+Step 2: Admin access admin panel.
 ![Alt text](image-17.png)
 ![Alt text](image-16.png)
 
-Step 3: Admin adds new member
+Step 3: Admin adds new member.
 ![Alt text](image-18.png)
 ![Alt text](image-19.png)
 ![Alt text](image-20.png)
 
-Step 3: Admin can make choice on boats now
+Step 3: Admin can make choice on boats now.
 ![Alt text](image-23.png)
 ![Alt text](image-24.png)
 ![Alt text](image-25.png)
 
-Step 4: Admin can now check that the boat has gone through
+Step 4: Admin can now check that the boat has gone through.
 ![Alt text](image-26.png)
 
 #### Functionality Test: Admin adding in New Event
+Step 1: From admin panel, select new event.
 ![Alt text](image-28.png)
+
+Step 2: Fill out the form and submit.
 ![Alt text](image-27.png)
+
+Step 3: Event now shoes up in events panel, and you can see the info and who is attending (Note the navigation functions through, this is for End-User Requirements and functionality ).
+![alt text](image-31.png)
+![alt text](image-32.png)
+![alt text](image-33.png)
 
 #### Functionality Test: Class Member Attending Events
 
-Step 1: Members See Home Page
+Step 1: Members See Home Page.
 ![Alt text](image-15.png)
+
+Step 2: Clicks on Event List.
+![alt text](image-34.png)
+
+Step 3: Picks an event to attend and presses confirm.
+![alt text](image-35.png)
+![alt text](image-36.png)
+
+Step 4: They confirm their phone number, this is used as a security measure and validation.
+![alt text](image-37.png)
+
+Step 5: They are then taken back to the event page.
+![alt text](image-38.png)
+
+#### Functionality Test: Admin seeing who is attending
+
+Step 1: From the admin panel, the admin selects the event he wants to check.
+![alt text](image-39.png)
+
+Step 2: It takes the admin to the attending panel, from there they can see. This is also where the admin has the ability to delete events as well.
+![alt text](image-41.png)
 
 #### Functionality Test: Admin removing Member
 
+Step 1: From the admin panel, the admin can select a member he wants to see.
+![alt text](image-42.png)
+
+Step 2: Can delete a member from here, or see a members info.
+![alt text](image-43.png)
+![alt text](image-44.png)
+![alt text](image-45.png)
+
 #### Functionality Test: Admin removing Event
+
+Step 1: From the admin panel, the admin can select and event and then it will take them to the event info page. Where they will be able to delete it.
+![alt text](image-46.png)
+
+Step 2: Press delete, the event will now be removed from the database and the event panel in the admin panel.
+![alt text](image-47.png)
+![alt text](image-48.png)
+![alt text](image-49.png)
+![alt text](image-50.png)

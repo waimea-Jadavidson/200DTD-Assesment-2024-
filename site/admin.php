@@ -3,6 +3,9 @@ require 'lib/utils.php';
 include 'partials/top.php'; ?>
 
 <?php
+
+// Connects to DB and sets up the query to be pushed through
+
 $db = connectToDB();
 $query = 'SELECT * FROM members';
 
