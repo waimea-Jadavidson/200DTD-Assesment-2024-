@@ -207,6 +207,16 @@ All pages have been HTML Validated, I have also created the function to delete e
 ![Alt text](images/image-15.png)
 ![Alt text](images/image-16.png)
 
+#
+
+### 2024/08/15
+#### Development: Stakeholder Feedback
+I reached out to my stakeholder to recieve some feedback on final result
+>I love the website Jasper, you have hit my requirements for functionality and the website being End User Compatabile. However, I would like to adjust the new member form and new boat form. After careful thinking, I believe it will be best to remove the existing boat option. This is because the onboarding process means that we will just add them as their role and have a Null Option in the dropdown box if a crew and helm are not registering at the same time. I feel this will reduce clicks required to onboard new people and boats. This will not effect much as I am the only person who will be seeing this change.
+##### Related Media
+![alt text](image-29.png)
+![alt text](image-30.png)
+
 #### Functionality Test: Admin adding in New Member + Seeing Members
 
 Step 1: Admin See Home Page
