@@ -38,19 +38,20 @@ consoleLog($attendees);
 <section id="eventMain">
 <h2 style="width: 100%;text-align: center;">Events Information Display</h2>
 
-<section class="infoBox">
-<br><b>Name: </b> <?= $event['name'] ?></br>
-<br><b>Email:</b> <?= $event['location'] ?></br>
-<br><b>Phone:</b> <?= $event['sDateTime'] ?></br>
-<br><b>Boat: </b> <?= $event['fDateTime'] ?></br>
-<br><b>Role: </b> <?= $event['description'] ?></br>
+<article class="infoBox">
+<h2>‎ </h2>
+<br><b>Name: </b> <?= $event['name'] ?><br>
+<br><b>Email:</b> <?= $event['location'] ?><br>
+<br><b>Phone:</b> <?= $event['sDateTime'] ?><br>
+<br><b>Boat: </b> <?= $event['fDateTime'] ?><br>
+<br><b>Role: </b> <?= $event['description'] ?><br>
 <div class="deleteButton">
 <a href="eventDelete.php?id=<?=$event['id']?>">Delete</a>
 </div>
 <div class="boatButton2">
             <a href="admin.php">Go Back</a>
         </div>
-</section>
+</article>
 <section class="infoBox">
     <h2>Attendes:</h2>
     <?php

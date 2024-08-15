@@ -145,7 +145,13 @@ I will need to consider all of the mentioned implications above as the all come 
 
 ### Meeting the Needs of the Users
 
-I have strived to meet the needs of the users to my best ability. The original theme of needs were that it was clean, modern, easy to use and the navigation around the website was clear and had a strong present. To meet these universal needs I have made sure that navigation around the website is easy and efficient with the least amount of clicks possible. Keeping in line with this, it was paramount that I try and design the website in a modern way. The modern design lends its self to my end user requirements with the clean and non cluttered aesthetic. For the admin, being able to manage members and events efficiently was a must. So the whole admin panel is designed around those specifications. Overall I believe I have achieved all of those targets, however I feel like something could of been done better, for example the homepage and events panel for class members and the public. This part could be a lot more efficient and aesthetics wise its not very pleasing. To improve this I would take a bit more time playing with different layouts. If I hadnt started with such an ambitious idea then I feel this would not have been as lacking. But that's just hindsight for you.
+I have strived to meet the needs of the users to my best ability. The original theme of needs were that it was clean, modern, easy to use and the navigation around the website was clear and had a strong present. To meet these universal needs I have made sure that navigation around the website is easy and efficient with the least amount of clicks possible. Keeping in line with this, it was paramount that I try and design the website in a modern way. The modern design lends its self to my end user requirements with the clean and non cluttered aesthetic. For the admin, being able to manage members and events efficiently was a must. So the whole admin panel is designed around those specifications. Overall I believe I have achieved all of those targets, however I feel like something could of been done better, for example the homepage and events panel for class members and the public. This part could be a lot more efficient and aesthetics wise its not very pleasing. To improve this I would take a bit more time playing with different layouts. If I hadn't started with such an ambitious idea then I feel this would not have been as lacking. But that's just hindsight for you.
+
+![Alt text](image-10.png)
+![Alt text](image-11.png)
+![Alt text](image-12.png)
+![Alt text](image-13.png)
+
 
 ### Meeting the System Requirements
 

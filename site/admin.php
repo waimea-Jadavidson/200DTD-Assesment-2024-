@@ -27,10 +27,10 @@ try{
 }
 ?>
 
-<h1 id="adminHeader">Admin</h1>
+
 
 <section class="admin">
-
+<h2 id="adminHeader">Admin</h2>
     <article class="eventAdmin">
 
         <h2 class="eventName">Events</h2>
@@ -46,7 +46,7 @@ try{
 
     </article>
 
-    <articles class="eventAdmin">
+    <article class="eventAdmin">
 
         <h2 class="eventName">Members</h2>
 
