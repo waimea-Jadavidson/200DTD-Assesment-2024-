@@ -206,3 +206,38 @@ All pages have been HTML Validated, I have also created the function to delete e
 ![Alt text](images/image-14.png)
 ![Alt text](images/image-15.png)
 ![Alt text](images/image-16.png)
+
+#### Functionality Test: Admin adding in New Member + Seeing Members
+
+Step 1: Admin See Home Page
+![Alt text](image-15.png)
+
+Step 2: Admin access admin panel
+![Alt text](image-17.png)
+![Alt text](image-16.png)
+
+Step 3: Admin adds new member
+![Alt text](image-18.png)
+![Alt text](image-19.png)
+![Alt text](image-20.png)
+
+Step 3: Admin can make choice on boats now
+![Alt text](image-23.png)
+![Alt text](image-24.png)
+![Alt text](image-25.png)
+
+Step 4: Admin can now check that the boat has gone through
+![Alt text](image-26.png)
+
+#### Functionality Test: Admin adding in New Event
+![Alt text](image-28.png)
+![Alt text](image-27.png)
+
+#### Functionality Test: Class Member Attending Events
+
+Step 1: Members See Home Page
+![Alt text](image-15.png)
+
+#### Functionality Test: Admin removing Member
+
+#### Functionality Test: Admin removing Event

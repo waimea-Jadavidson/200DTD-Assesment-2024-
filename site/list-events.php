@@ -17,7 +17,7 @@ try{
 ?>
 
 
-
+<!------ Displays all events within Separate Containers ------->
 
 <section id="events">
 <h2 id="eventHeader">Events</h2>
@@ -38,7 +38,7 @@ try{
         ?>
 </section>
 
-<div id="boatButton3">
+<div id="boatButton3"> <!----- Navigation Button ------>
             <a href="index.php">Go Back</a>
         </div>
 

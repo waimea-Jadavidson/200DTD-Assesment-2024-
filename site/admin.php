@@ -27,12 +27,12 @@ try{
 }
 ?>
 
-
+<!------- Main Container ------->
 
 <section class="admin">
 <h2 id="adminHeader">Admin</h2>
     <article class="eventAdmin">
-
+        <!------ Event Container ------->
         <h2 class="eventName">Events</h2>
         
         <p><b>Number of Upcoming Events: </b> <?=count($events)?></p>
@@ -49,7 +49,7 @@ try{
     <article class="eventAdmin">
 
         <h2 class="eventName">Members</h2>
-
+        <!------ Member Container ------->
         <p><b>Number of Members:</b> <?=count($members)?></p>
         <p><b>Members:</b> 
              <?php echo'<br id="paddingTest">'; foreach($members as $member){echo '<a class="button1" href="memberDisplay.php?id='.$member['uid'].'">'.$member['name'] . '</a><br>';} ;?>

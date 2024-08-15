@@ -30,6 +30,8 @@ try{
 
 ?>
 
+<!-------- Forum to Onboard New Boat for Members -------->
+
 <form method="POST" action="addBoat.php">
 
     <input name="member" type="hidden" value="<?= $memberID ?>">
@@ -44,7 +46,7 @@ try{
     <select id="helm" name="helm">
         <?php 
             foreach($members as $member){
-                echo'<option value="helm">'.$member['name'].'</option>';
+                echo'<option>'.$member['name'].'</option>';
             }
         ?>
     </select>
@@ -53,26 +55,30 @@ try{
     <select id="crew" name="crew">
         <?php 
             foreach($members as $member){
-                echo'<option value="crew">'.$member['name'].'</option>';
+                echo'<option>'.$member['name'].'</option>';
             }
         ?>
     </select>
+    <input type="submit" value="Submit" style="margin-top: 10px;">
+    </form>
+    <form method="POST" action="addBoat.php">
     <h2 style="margin-bottom: 0px;">Existing Boat</h2>
     <label>Boat Sail Number</label>
     <select id="sailNumber" name="sailNumber">
         <?php 
             foreach($boats as $boat){
-                echo'<option value="helm">'.$boat['sailNumber'].'</option>';
+                echo'<option>'.$boat['sailNumber'].'</option>';
             }
         ?>
     </select>
     
     <input type="submit" value="Submit" style="margin-top: 10px;">
-    
+    </form>        
+    <form method="POST" action=""> 
    <section id="seperateBox">
    <h2 style="text-align: center;">Please click here, if no boat</h2>        
     <div id="boatButton">
-            <a href="admin.php">No Boat</a>
+            <a href="admin.php">No Boat</a> <!------- Navigation Button ------->
         </div>     
    </section>
 

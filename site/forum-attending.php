@@ -8,6 +8,8 @@ consoleLog($eventID);
 
 ?>
 
+<!-------- Forum to see who is Attending -------->
+
 <form method="POST" action="confrimPage.php">
 
     <label>Please enter Phone Number</label>

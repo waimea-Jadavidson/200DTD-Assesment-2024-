@@ -14,25 +14,12 @@ $uid = $_POST['member'];
 $db = connectToDB();
 consoleLog($db);
 
-// Query
-$query = 'INSERT INTO `boats` (`sailNumber`, `name`, `helm`, `crew`) VALUES (?,?,?,?)';
+$query = 'UPDATE `members` SET `boat`=? WHERE id=?';
 
 // Error Catching and sending and requesting Data
 try {
       $stmt = $db->prepare($query);
-      $stmt->execute([$sailNumber,$name, $helm, $crew]);
-} catch (PDOException $e) {
-    consoleLog($_POST, 'POST Data');
-    consoleLog($e->getMessage(), 'DB List Fetch', ERROR);
-    die("ERROR ERROR ERROR, can you spot the difference?");
-}
-
-$query = 'UPDATE `members` SET `boat`=? WHERE `uid`=?';
-
-// Error Catching and sending and requesting Data
-try {
-      $stmt = $db->prepare($query);
-      $stmt->execute([$sailNumber, $uid]);
+      $stmt->execute([$boat, $uid]);
 
 } catch (PDOException $e) {
     consoleLog($_POST, 'POST Data');

@@ -17,11 +17,11 @@ try{
 }
 
 ?>
-<section id="memberMain">
+<section id="memberMain"> <!------- This box Display member information from the database ------->
 <h2 style="width: 100%;text-align: center;">Members Information Display</h2>
 
 <section id="memberInfo">
-<h2>‎ </h2>
+<h2>‎ </h2> <!---- Special Character ------->
 <?php echo'<br>'; foreach($members as $member){echo '<b>Name:  </b>'.$member['name'].'<br>';} ;?>
 <?php echo'<br>'; foreach($members as $member){echo '<b>Email: </b> '.$member['email'].'<br>';} ;?>
 <?php echo'<br>'; foreach($members as $member){echo '<b>Phone: </b> '.$member['phone'].'<br>';} ;?>
@@ -30,7 +30,7 @@ try{
 <div class="deleteButton">
     <a href="memberDelete.php?id=<?=$member['uid']?>">Delete</a>
 </div>
-<div class="boatButton2">
+<div class="boatButton2"> <!---- Navigation Button ----->
             <a href="admin.php">Go Back</a>
         </div>
 </section>

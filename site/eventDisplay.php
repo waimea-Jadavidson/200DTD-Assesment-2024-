@@ -38,6 +38,8 @@ consoleLog($attendees);
 <section id="eventMain">
 <h2 style="width: 100%;text-align: center;">Events Information Display</h2>
 
+<!-------- Container to Display Attendees and Event Information --------->
+
 <article class="infoBox">
 <h2>‎ </h2>
 <br><b>Name: </b> <?= $event['name'] ?><br>

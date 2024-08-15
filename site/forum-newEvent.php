@@ -2,6 +2,8 @@
 require 'lib/utils.php';
 include 'partials/top.php'; ?>
 
+<!-------- Forum to Onboard New Event -------->
+
 <form method="POST" action="addEvent.php">
 
     <label>Name</label>
@@ -21,7 +23,7 @@ include 'partials/top.php'; ?>
 
     <input type="submit" value="Submit New Event">
 
-    <div id="boatButton">
+    <div id="boatButton"> <!------- Navigation Button ------->
             <a href="admin.php">Cancel</a>
         </div>
 
