@@ -141,7 +141,7 @@ I have updated my admin page to expand and scale just like my figma mock up.
 #### Development: New Event Forum
 I have created the new event forum, this will allow for the Admin to put in new events
 ##### Related Media
-![Intial Forum](images/image-1.png)
+![Intial Forum](images/dev/image-1.png)
 
 
 #
@@ -151,7 +151,7 @@ I have created the new event forum, this will allow for the Admin to put in new 
 During the holidays I acquired some stakeholder feedback on current progress
 >I like the progress you have made so far Jasper, the website has come a long way colour and design wise. However I am concerned with the lack of functionality at the moment, lots of the key features are currently missing, like attending events and adding new members as well. I would like to see some more functionality added in please.
 ##### Related Media
-![DB Image](images/image-2.png)
+![DB Image](images/dev/image-2.png)
 
 #
 
@@ -160,8 +160,8 @@ During the holidays I acquired some stakeholder feedback on current progress
 I have made the new member and boat signup pages, I have also been able to setup the attending page so that the admin will be able to see who is attending. I have also updated all fourms with a cancel option so they can go back
 >I am seeing some positive progress being made, however you are missing the functionality where we are able to back out of all actions easily
 ##### Related Media
-![Alt text](images/image-3.png)
-![Alt text](images/image-4.png)
+![Alt text](images/dev/image-3.png)
+![Alt text](images/dev/image-4.png)
 
 #
 
@@ -170,7 +170,7 @@ I have made the new member and boat signup pages, I have also been able to setup
 I have made sure that my website is mobile phone compatabile. In the start I said that it was not going to be needed. But to meet my key heuristics of functionality
 and meeting end users. I have add this feature to so that it is functional on the go and people who are mobile phone savy are able to access and use this website via phones.
 ##### Related Media
-![Alt text](images/image-5.png)
+![Alt text](images/dev/image-5.png)
 
 #
 
@@ -179,11 +179,11 @@ and meeting end users. I have add this feature to so that it is functional on th
 I have updated some pages to have cancel and go back buttons for more concise navigation. I created and events and member information display page, so information concerning the events and members have a display, this is accessed by clicking on them from the admin panel. I fixed the main button on the homepage and I updated the boat picker form page to look nicer and flow better. I ran one page through a validater and I got 20 errors which are mainly br end tags. Not to hard to fix.
 > I am very impressed with the progress you have made Jasper, it's leaps and bounds ahead of what it was a week ago. I like how you have made sure to update the pages with navigation aid buttons, this will help with our older generation of sailors. However I would like to see a way to see who is actually attending events and a way to delete members from the Database. I would consider this core functionality and would like to see it in the end product.
 ##### Related Media
-![Alt text](images/image-6.png)
-![Alt text](images/image-7.png)
-![Alt text](images/image-8.png)
-![Alt text](images/image-9.png)
-![Alt text](images/image-10.png)
+![Alt text](images/dev/image-6.png)
+![Alt text](images/dev/image-7.png)
+![Alt text](images/dev/image-8.png)
+![Alt text](images/dev/image-9.png)
+![Alt text](images/dev/image-10.png)
 
 #
 
@@ -191,21 +191,22 @@ I have updated some pages to have cancel and go back buttons for more concise na
 #### Development: Fixing members not being able to be deleted
 I had to be able to delete members, but because it was in another table I had to delete it from there first. Hence fixing my problem and ticking off another functionality part of the website. I have also bolded the two text things here as per the figma design, so people can tell that this is important and a heading.
 ##### Related Media
-![Alt text](image-3.png)
-![Alt text](image-4.png)
+![Alt text](images/dev/image-3.png)
+![Alt text](images/dev/image-4.png)
 
 #
 
 ### 2024/08/15
 #### Development: HTML Validation
-All pages have been HTML Validated, I have also created the function to delete events and delete members
+All pages have been HTML Validated as well CSS, I have also created the function to delete events and delete members
 ##### Related Media
-![Alt text](images/image-11.png)
-![Alt text](images/image-12.png)
-![Alt text](images/image-13.png)
-![Alt text](images/image-14.png)
-![Alt text](images/image-15.png)
-![Alt text](images/image-16.png)
+![Alt text](images/dev/image-11.png)
+![Alt text](images/dev/image-12.png)
+![Alt text](images/dev/image-13.png)
+![Alt text](images/dev/image-14.png)
+![Alt text](images/dev/image-15.png)
+![Alt text](images/dev/image-16.png)
+![Alt text](images/dev/image-51.png)
 
 #
 
@@ -214,86 +215,105 @@ All pages have been HTML Validated, I have also created the function to delete e
 I reached out to my stakeholder to recieve some feedback on final result
 >I love the website Jasper, you have hit my requirements for functionality and the website being End User Compatabile. However, I would like to adjust the new member form and new boat form. After careful thinking, I believe it will be best to remove the existing boat option. This is because the onboarding process means that we will just add them as their role and have a Null Option in the dropdown box if a crew and helm are not registering at the same time. I feel this will reduce clicks required to onboard new people and boats. This will not effect much as I am the only person who will be seeing this change.
 ##### Related Media
-![alt text](image-29.png)
-![alt text](image-30.png)
+![alt text](images/dev/image-29.png)
+![alt text](images/dev/image-30.png)
 
 #### Functionality Test: Admin adding in New Member + Seeing Members
 
 Step 1: Admin See Home Page.
-![Alt text](image-15.png)
+
+![Alt text](images/dev/image-15.png)
 
 Step 2: Admin access admin panel.
-![Alt text](image-17.png)
-![Alt text](image-16.png)
+
+![Alt text](images/dev/image-17.png)
+![Alt text](images/dev/image-16.png)
 
 Step 3: Admin adds new member.
-![Alt text](image-18.png)
-![Alt text](image-19.png)
-![Alt text](image-20.png)
+
+![Alt text](images/dev/image-18.png)
+![Alt text](images/dev/image-19.png)
+![Alt text](images/dev/image-20.png)
 
 Step 3: Admin can make choice on boats now.
-![Alt text](image-23.png)
-![Alt text](image-24.png)
-![Alt text](image-25.png)
+
+![Alt text](images/dev/image-23.png)
+![Alt text](images/dev/image-24.png)
+![Alt text](images/dev/image-25.png)
 
 Step 4: Admin can now check that the boat has gone through.
-![Alt text](image-26.png)
+
+![Alt text](images/dev/image-26.png)
 
 #### Functionality Test: Admin adding in New Event
 Step 1: From admin panel, select new event.
-![Alt text](image-28.png)
+
+![Alt text](images/dev/image-28.png)
 
 Step 2: Fill out the form and submit.
-![Alt text](image-27.png)
+
+![Alt text](images/dev/image-27.png)
 
 Step 3: Event now shoes up in events panel, and you can see the info and who is attending (Note the navigation functions through, this is for End-User Requirements and functionality ).
-![alt text](image-31.png)
-![alt text](image-32.png)
-![alt text](image-33.png)
+
+![alt text](images/dev/image-31.png)
+![alt text](images/dev/image-32.png)
+![alt text](images/dev/image-33.png)
 
 #### Functionality Test: Class Member Attending Events
 
 Step 1: Members See Home Page.
-![Alt text](image-15.png)
+
+![Alt text](images/dev/image-15.png)
 
 Step 2: Clicks on Event List.
-![alt text](image-34.png)
+
+![alt text](images/dev/image-34.png)
 
 Step 3: Picks an event to attend and presses confirm.
-![alt text](image-35.png)
-![alt text](image-36.png)
+
+![alt text](images/dev/image-35.png)
+![alt text](images/dev/image-36.png)
 
 Step 4: They confirm their phone number, this is used as a security measure and validation.
-![alt text](image-37.png)
+
+![alt text](images/dev/image-37.png)
 
 Step 5: They are then taken back to the event page.
-![alt text](image-38.png)
+
+![alt text](images/dev/image-38.png)
 
 #### Functionality Test: Admin seeing who is attending
 
 Step 1: From the admin panel, the admin selects the event he wants to check.
-![alt text](image-39.png)
+
+![alt text](images/dev/image-39.png)
 
 Step 2: It takes the admin to the attending panel, from there they can see. This is also where the admin has the ability to delete events as well.
-![alt text](image-41.png)
+
+![alt text](images/dev/image-41.png)
 
 #### Functionality Test: Admin removing Member
 
 Step 1: From the admin panel, the admin can select a member he wants to see.
-![alt text](image-42.png)
+
+![alt text](images/dev/image-42.png)
 
 Step 2: Can delete a member from here, or see a members info.
-![alt text](image-43.png)
-![alt text](image-44.png)
-![alt text](image-45.png)
+
+![alt text](images/dev/image-43.png)
+![alt text](images/dev/image-44.png)
+![alt text](images/dev/image-45.png)
 
 #### Functionality Test: Admin removing Event
 
 Step 1: From the admin panel, the admin can select and event and then it will take them to the event info page. Where they will be able to delete it.
-![alt text](image-46.png)
+
+![alt text](images/dev/image-46.png)
 
 Step 2: Press delete, the event will now be removed from the database and the event panel in the admin panel.
-![alt text](image-47.png)
-![alt text](image-48.png)
-![alt text](image-49.png)
-![alt text](image-50.png)
+
+![alt text](images/dev/image-47.png)
+![alt text](images/dev/image-48.png)
+![alt text](images/dev/image-49.png)
+![alt text](images/dev/image-50.png)
