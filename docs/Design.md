@@ -26,7 +26,7 @@ National Secretary has no way to track Class Members, Regattas and who is attend
 * Seeing Regatta Events that are upcoming  
 * Be able to say that their attending events
 
-* Not all It iterate, will need to use plain and simple design
+* Computer Competency is minimal, will need to use plain and simple design
 * Plain and simple language
 
 #### National Secretary 
@@ -38,13 +38,6 @@ National Secretary has no way to track Class Members, Regattas and who is attend
 * Easy to use, will not take up massive amounts of time, as he does have a day job
 * Can be done off a laptop
 
-#### Public
-
-* Find out class and association information
-* Find joining information
-* Look at pictures and media
-
-* Not all possibly sailors, so refrain from using sailing language
 
 ### Proposed Solution
 
@@ -179,4 +172,4 @@ Replace this text with brief notes showing how the implication was addressed in 
 
 During this process of making the website, I made sure to follow through with keeping this whole website legal. I did this by making sure any images that were used were not under copyright and that users can not upload any images that risk the legality of the website.
 
-![Alt text](images/dev/image-52.png)
+![Alt text](images/dev/image-52.png)  

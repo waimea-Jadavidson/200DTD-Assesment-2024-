@@ -2,14 +2,16 @@
     DTD Assesemnt Repo.
 
 ## Purpose
-This project is a system that will allow the NZFDA to keep track of members and regatta events as well as other association buissness.
+This project is a system that will allow the NZFDA to keep track of members and regatta events as well as other association business.
 
 ## Features
-- Allows NZFDA to post Regatta events and get attendance
+- Allows NZFDA to post Regatta events and get attendance.
 - Allows NZFDA to add,edit or remove members and keep a record.
 
+- Allows NZFDA Members to mark their attendance.
+
 ## Project Logo
-![NZFDA](<images/Logo_NZ Flying Dutchman Assn.jpg>)
+![NZFDA](site\images\NZFDA_Logo.jpg)
 
 ## Documentation
 
