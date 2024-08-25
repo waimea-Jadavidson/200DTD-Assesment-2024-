@@ -109,11 +109,11 @@ I will need to consider all of the mentioned implications above as the all come 
 
 ### Database Structure
 
-![Final DB Image](db1.png)
+![Final DB Image](images/dev/image-1.png)
 
 ### User Interface Design
 
-![Alt text](web2.png)
+![Alt text](images/dev/image-2.png)
 
 
 -------------------------------------------------
